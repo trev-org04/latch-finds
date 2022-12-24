@@ -1,0 +1,106 @@
+* {
+  margin: 0; 
+  padding: 0;
+  background-color: #e0c9a7;
+}
+.header  {
+  padding: 25px 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #040F0F; */
+  background-color: #e0c9a7;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+}
+.menu, .search  {
+  filter: invert(30%) sepia(7%) saturate(1211%) hue-rotate(29deg) brightness(99%) contrast(88%);
+  width: 30px;
+  background-color: transparent;
+  transition: 0.15s ease-in-out all;
+}
+.menu:hover, .search:hover  {
+  filter: invert(46%) sepia(12%) saturate(620%) hue-rotate(14deg) brightness(93%) contrast(95%);
+  scale: 1.05;
+}
+.logo {
+  font-family: 'Retroica';
+  font-size: 20px;
+  color: #535641;
+}
+.landingTextContainer  {
+  width: 50%;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 25px 55px;
+  background-color: transparent;
+}
+.landingHeader  {
+  font-family: 'Retroica';
+  color: #535641;
+  font-size: 55px;
+  background-color: transparent;
+}
+.landingSubHeader  {
+  font-family: 'HM-Sans';
+  padding-top: 1em;
+  opacity: .9;
+  color: #535641;
+  font-size: 25px;
+  background-color: transparent;
+}
+.landingButton  {
+  width: 8em;
+  border: 0;
+  background-color: #535641;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 15px;
+  margin-top: 2em;
+  border-radius: 5px;
+  font-family: 'HM-Sans';
+  transition: 0.15s ease-in-out all;
+}
+.landingButton:hover  {
+  scale: 1.05;
+  opacity: .6;
+}
+.landingContainer  {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  height: 90vh;
+  background-image: url('./image.png');
+  width: 100%;
+}
+.landingPic  {
+  width: 40%;
+  padding: 0px 55px;
+}
+.productContainer  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.item  {
+  display: flex;
+  flex-direction: column;
+  background-color: #aa9575;
+}
+.itemTitle  {
+  font-family: 'HM-Sans';
+  color: #535641;
+  background-color: transparent;
+}
+.itemPrice {
+  font-family: 'HM-Sans';
+  color: #535641;
+  background-color: transparent;
+  opacity: .75;
+}
+.itemPic  {
+  width: 20%;
+}
